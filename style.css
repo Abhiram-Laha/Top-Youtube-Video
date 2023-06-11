@@ -72,3 +72,35 @@ button:hover {
     color: #666;
 }
 
+/* Media Queries for Mobile Devices */
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    input[type="text"] {
+        width: 80%;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    .video {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .video iframe {
+        height: 200px;
+    }
+
+    .video-details h2 {
+        font-size: 16px;
+    }
+
+    .video-details p {
+        font-size: 14px;
+    }
+}
