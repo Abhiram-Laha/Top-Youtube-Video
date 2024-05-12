@@ -36,7 +36,7 @@ function displayResults(videos) {
     const resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = '';
 
-    videos.slice(0, 3).forEach(video => {
+    videos.slice(0, 5).forEach(video => {
         const title = video.snippet.title;
         const description = video.snippet.description;
         const videoId = video.id.videoId;
